@@ -1,0 +1,6 @@
+project_id = "gcmarc"
+# os_distribution = "ubuntu"
+tooling_playbook = "./ansible/playbook.yaml"
+zone = "europe-west3-c"
+# packer_sa_email = "deployer@gcmarc.iam.gserviceaccount.com"
+# technical_contact = "marcwo@google.com"

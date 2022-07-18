@@ -1,0 +1,8 @@
+instance_name = "looker-ps-toolkit-gcmarc"
+project_id = "gcmarc"
+zone = "europe-west3-c"
+region = "europe-west3"
+machine_type = "f1-micro"
+image = "debian-cloud/debian-11"
+# startup_script = "tool_install.sh"
+terraform_sa_email = "deployer@gcmarc.iam.gserviceaccount.com"
