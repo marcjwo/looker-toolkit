@@ -7,8 +7,6 @@
   tasks:
     - name: add path to ~/.bashrc
       command: echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.bashrc
-    # - name: source bashrc
-    #   command: source ~/.bashrc
     - name: install pip and ruby
       command: sudo apt-get install python3-pip ruby -y
     - name: install gazer

@@ -1,4 +1,4 @@
-# Looker Toolkit as Code
+# Looker Toolkit as Code 18th of July, Test
 ## Introduction
 Looker Toolkit as Code is a set of tools that can be used to create and spin up a preconfigured VM images that contains open source third party tools to complement your exisiting Looker infrastructure and save users the hassle of installing and configuring these tools individually. The way to achieve this is via this repo is two-fold and you can decide eventually if you want to deploy the image manually or via terraform. I will explain both variants.
 
