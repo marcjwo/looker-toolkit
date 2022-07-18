@@ -29,13 +29,13 @@ variable "image" {
 
 variable "image_family" {
   description = "Image family to be used by TF"
-  default = "toolkit"
+  default = "looker-toolkit"
 }
 
 # variable "startup_script" {
 #   description = "Path to the startup script"
 # }
 
-variable "terraform_sa_email" {
+variable "sa_email" {
   description = "Service Account Email"
 }

@@ -1,6 +1,4 @@
-project_id = "gcmarc"
-# os_distribution = "ubuntu"
+project_id = "githublookertoolkittest"
 tooling_playbook = "./ansible/playbook.yaml"
 zone = "europe-west3-c"
-# packer_sa_email = "deployer@gcmarc.iam.gserviceaccount.com"
-# technical_contact = "marcwo@google.com"
+sa_email = "looker-toolkit@githublookertoolkittest.iam.gserviceaccount.com"

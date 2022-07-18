@@ -1,10 +1,11 @@
 source "googlecompute" "looker-tooling" {
-  source_image_family = "debian-11"
-  ssh_username        = "packer"
-  zone                = var.zone
-  project_id          = var.project_id
-  image_family        = "toolkit"
-  name                = "toolkit image"
+  impersonate_service_account = var.sa_email
+  zone                        = var.zone
+  project_id                  = var.project_id
+  source_image_family         = "debian-11"
+  ssh_username                = "packer"
+  image_family                = "looker-toolkit"
+  image_name                  = "looker-toolkit"
 }
 
 build {

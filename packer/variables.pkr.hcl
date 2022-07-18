@@ -1,7 +1,7 @@
-# variable "packer_sa_email" {
-#   type    = string
-#   default = ""
-# }
+variable "sa_email" {
+  type    = string
+  default = ""
+}
 
 variable "zone" {
   type    = string

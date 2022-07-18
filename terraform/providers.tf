@@ -7,7 +7,7 @@ terraform {
 }
 
 provider "google" {
-  impersonate_service_account = var.terraform_sa_email
+  impersonate_service_account = var.sa_email
   project                     = var.project_id
   region                      = var.region
   zone                        = var.zone
