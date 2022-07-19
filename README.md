@@ -36,6 +36,7 @@ While it would be possible to use your application default credentials to author
 The service account needs the following permissions:
 - Compute Admin (v1)
 - Service Account User
+- Compute Image User
 
 ### 5. Clone the git repository
 Assuming that you have git installed and working in your development enviroment, clone the git repository to the folder of your choice.<br>
