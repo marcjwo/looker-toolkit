@@ -15,5 +15,9 @@ resource "google_compute_instance" "looker_toolkit" {
 
   network_interface {
     network = "default"
+
+    access_config {
+
+    }
   }
 }
